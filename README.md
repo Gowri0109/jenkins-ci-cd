@@ -55,7 +55,7 @@ To design and implement an end-to-end Jenkins CI/CD pipeline that:
 
 ---
 ## 🏗️ Architecture Diagram
-
+```
                 ┌────────────────────┐
                 │     Developer      │
                 │   (git push)       │
@@ -92,7 +92,7 @@ To design and implement an end-to-end Jenkins CI/CD pipeline that:
                 │     End Users      │
                 │ http://EC2-IP:5000 │
                 └────────────────────┘
-
+```
 ---
 
 ## ⚙️ Jenkins Pipeline Stages
