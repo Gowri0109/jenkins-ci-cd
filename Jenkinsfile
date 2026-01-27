@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKERHUB_CREDENTIALS = credentials('dockerhub-cred-id')
-        IMAGE_NAME = 'gowrisuresh0109/multi-branch'
+        IMAGE_NAME = 'gowrisuresh0109/flask-project'
     }
 
     stages {
