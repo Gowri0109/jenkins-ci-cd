@@ -1,4 +1,4 @@
-# 🚀 Jenkins CI/CD Pipeline for Python Flask Application
+#  Jenkins CI/CD Pipeline for Python Flask Application
 
 This repository demonstrates a real-time CI/CD pipeline using Jenkins to automate the build, containerization, and deployment of a Python Flask application using Docker, Docker Hub, and AWS EC2.
 The pipeline is event-driven and triggered automatically using GitHub Webhooks.
@@ -19,7 +19,7 @@ To design and implement an end-to-end Jenkins CI/CD pipeline that:
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - Python – Flask Framework
 
@@ -37,7 +37,7 @@ To design and implement an end-to-end Jenkins CI/CD pipeline that:
 
 ---
 
-## 🔄 CI/CD Workflow
+##  CI/CD Workflow
 
 1. Developer pushes code to GitHub
 
@@ -54,7 +54,7 @@ To design and implement an end-to-end Jenkins CI/CD pipeline that:
 7. Flask app is accessible via public IP
 
 ---
-## 🏗️ Architecture Diagram
+##  Architecture Diagram
 ```
                 ┌────────────────────┐
                 │     Developer      │
@@ -95,7 +95,7 @@ To design and implement an end-to-end Jenkins CI/CD pipeline that:
 ```
 ---
 
-## ⚙️ Jenkins Pipeline Stages
+##  Jenkins Pipeline Stages
 
 The CI/CD pipeline is written using a Declarative Jenkinsfile and consists of the following stages:
 
@@ -111,7 +111,7 @@ The CI/CD pipeline is written using a Declarative Jenkinsfile and consists of th
 
 ---
 
-## 🔐 Webhook Configuration
+##  Webhook Configuration
 
 GitHub Webhook configured with Jenkins endpoint:
 
@@ -130,7 +130,7 @@ Eliminates manual builds and SCM polling
 
 ---
 
-## 🐳 Docker Hub Repository
+##  Docker Hub Repository
 
 Docker images are pushed to:
 
@@ -150,7 +150,7 @@ gowrisuresh0109/flask-project
 ```
 
 ---
-## 🌐 Application Access
+##  Application Access
 
 Once deployed successfully, the Flask application is accessible at:
 
@@ -160,11 +160,11 @@ http://<EC2_PUBLIC_IP>:5000
 
 Output:
 ```
-Flask App is Running Successfully 🚀
+Flask App is Running Successfully 
 ```
 
 ---
-## 🎯 Key Features
+##  Key Features
 
 Real-time CI/CD using GitHub Webhooks
 
@@ -190,7 +190,7 @@ Production-style DevOps workflow
 
 ---
 
-## 🚀 Future Enhancements
+##  Future Enhancements
 
 - Add automated test stage
 
@@ -204,7 +204,7 @@ Production-style DevOps workflow
 
 ----
 
-## 👩‍💻 Author
+##  Author
 
 Gowri Suresh
 DevOps & Cloud Enthusiast
